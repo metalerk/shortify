@@ -1,6 +1,6 @@
 # Shortify URL Shortener
 
-![shortify_logo](media/shortify_logo.jpeg)
+![shortify_logo](assets/shortify_logo.jpeg)
 
 ## Overview
 

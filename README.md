@@ -1,6 +1,6 @@
 # Shortify URL Shortener
 
-![shortify_logo](assets/shortify_logo.jpeg)
+<img src="assets/shortify_logo.jpeg" alt="shortify_logo" width="300">
 
 ## Overview
 

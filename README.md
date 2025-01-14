@@ -37,6 +37,7 @@ shortify/
 ├── Dockerfile               # Dockerfile for containerization
 ├── docker-compose.yml       # Docker Compose configuration
 └── requirements.txt         # Project dependencies
+└── prometheus.yml           # Prometheus config
 ```
 
 ## Endpoints
@@ -141,25 +142,13 @@ shortify/
 
 To run the application, follow these steps:
 
-1. **Install dependencies**:
+**Run the app**:
 
    ```bash
-   pip install -r requirements.txt
+   docker-compose up --build
    ```
 
-2. **Set up the PostgreSQL database**:
-
-   ```bash
-   docker-compose up -d
-   ```
-
-3. **Run the FastAPI app**:
-
-   ```bash
-   uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
-   ```
-
-4. **Access the app** at [http://localhost:8000](http://localhost:8000).
+**Access the app** at [http://localhost:8000](http://localhost:8000).
 
 ---
 

@@ -19,6 +19,11 @@
 - **PostgreSQL**: Relational database for storing URL data.
 - **SQLAlchemy**: ORM for interacting with the PostgreSQL database.
 - **Docker**: For containerization of the app and running it in isolated environments.
+- **Prometheus**: For collecting metrics and monitoring application performance.
+
+### Prometheus Metrics
+
+**Prometheus** provides a robust and scalable way to monitor the application by collecting metrics such as request counts, latencies, and errors. It also integrates with visualization tools like Grafana to create insightful dashboards, ensuring that the service remains reliable and performant.
 
 ## Folder Structure
 
@@ -149,6 +154,8 @@ To run the application, follow these steps:
    ```
 
 **Access the app** at [http://localhost:8000](http://localhost:8000).
+
+**Access Prometheus stats** at [http://localhost:9090](http://localhost:9090).
 
 ---
 

@@ -1,6 +1,8 @@
 # Shortify URL Shortener
 
-<img src="assets/shortify_logo.jpeg" alt="shortify_logo" width="300">
+<div style="text-align: center;">
+    <img src="assets/shortify_logo.jpeg" alt="shortify_logo" width="300">
+</div>
 
 ## Overview
 
